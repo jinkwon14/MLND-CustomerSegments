@@ -1,11 +1,11 @@
 # Content: Customer Segmentation with Unsupervised Machine Learning)
----
+
 Many companies today collect vast amounts of data on customers and clientele, and have a strong desire to understand the meaningful relationships hidden in their customer base. Being equipped with this information can assist a company engineer future products and services that best satisfy the demands or needs of their customers.
 
 In this project, unsupervised machine learning is implemented to product spending data collected for customers of a wholesale distributor in Lisbon, Portugal, to identify customer segments hidden in the data.
 
 ## Getting started
----
+
 ### Install
 
 Viewing this project requires **Python 2.7** and the following Python libraries installed:
@@ -40,18 +40,19 @@ The customer segments data is included as a selection of 440 data points collect
 Note (m.u.) is shorthand for *monetary units*.
 
 **Features**
-1) `Fresh`: annual spending (m.u.) on fresh products (Continuous);
-2) `Milk`: annual spending (m.u.) on milk products (Continuous);
-3) `Grocery`: annual spending (m.u.) on grocery products (Continuous);
-4) `Frozen`: annual spending (m.u.) on frozen products (Continuous);
-5) `Detergents_Paper`: annual spending (m.u.) on detergents and paper products (Continuous);
-6) `Delicatessen`: annual spending (m.u.) on and delicatessen products (Continuous);
-7) `Channel`: {Hotel/Restaurant/Cafe - 1, Retail - 2} (Nominal)
+1) `Fresh`: annual spending (m.u.) on fresh products (Continuous);  
+2) `Milk`: annual spending (m.u.) on milk products (Continuous);  
+3) `Grocery`: annual spending (m.u.) on grocery products (Continuous);  
+4) `Frozen`: annual spending (m.u.) on frozen products (Continuous);  
+5) `Detergents_Paper`: annual spending (m.u.) on detergents and paper products (Continuous);  
+6) `Delicatessen`: annual spending (m.u.) on and delicatessen products (Continuous);  
+7) `Channel`: {Hotel/Restaurant/Cafe - 1, Retail - 2} (Nominal)  
 8) `Region`: {Lisnon - 1, Oporto - 2, or Other - 3} (Nominal)
 
 ## Data Analysis Procedures
 
-In this unsupervised machine learning project, data analysis was conducted in the following steps.
-First, a small subset of data was explored to determine if any product categories are highly correlate with one another.
-Second, the data was preprocessed by scaling each product category and then identifying (and removing) unwanted outliers.
-Third, PCA transformation was applied to the good, clean customer spending data, you will apply PCA transformations to the data and implement clustering algorithms to segment the transformed customer data. Finally, you will compare the segmentation found with an additional labeling and consider ways this information could assist the wholesale distributor with future service changes.
+In this unsupervised machine learning project, data analysis was conducted in the following steps.  
+First, a small subset of data was explored to determine if any product categories are highly correlate with one another.  
+Second, the data was preprocessed by scaling each product category and then identifying (and removing) unwanted outliers.  
+Third, PCA transformation was applied to the good, clean customer spending data, you will apply PCA transformations to the data and implement clustering algorithms to segment the transformed customer data.  
+Finally, segmentation found with an additional labeling were compared and ways this information could assist the wholesale distributor with future service changes were reported.
