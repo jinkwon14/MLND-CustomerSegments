@@ -5,8 +5,10 @@ Many companies today collect vast amounts of data on customers and clientele, an
 In this project, unsupervised machine learning is implemented to product spending data collected for customers of a wholesale distributor in Lisbon, Portugal, to identify customer segments hidden in the data.
 
 ## Getting started
+### View full report!  
+Full report can be viewed by either clicking this [link](https://github.com/kwonjh90/MLND-CustomerSegments/blob/master/customer_segments.ipynb) or clicking on the `customer_segments.ipynb` file from the committed files list. Please understand that due to the size of data base, loading the report may take a couple of minutes. Thank you for your interest.
 
-### Install
+### Requirements (only needed if you want to view the report on a local machine)
 
 Viewing this project requires **Python 2.7** and the following Python libraries installed:
 
@@ -17,7 +19,7 @@ Viewing this project requires **Python 2.7** and the following Python libraries 
 
 You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
+It is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
 ### Run
 
